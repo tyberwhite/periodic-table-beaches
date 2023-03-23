@@ -13,11 +13,14 @@
   --amaranthRed: #ec325a;
   --verdiGreen: #3cbbb1;
   --maizeYellow: #fee440;
-  --mauvPurple: #9000b3;
+  --mauvPurple: #a300cc;
   --pink: #fdc5f5;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: #001d29;
   font-family: "DM Sans", sans-serif;
 }
@@ -45,7 +48,7 @@ header h2 {
   align-items: center;
   width: 900px;
   height: 400px;
-  margin: 75px auto 25px;
+  margin: 50px auto 25px;
 }
 
 .row {
@@ -162,12 +165,12 @@ header h2 {
 }
 
 .purple {
-  border: 4px solid #9000b3;
-  color: #9000b3;
+  border: 4px solid var(--mauvPurple);
+  color: var(--mauvPurple);
 }
 
 .purple:hover {
-  background-color: #9000b3;
+  background-color: var(--mauvPurple);
   color: #fff;
 }
 
@@ -253,10 +256,7 @@ header h2 {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  margin-top: auto;
   padding: 10px;
   background-color: #002b3d;
   color: white;
