@@ -1,0 +1,74 @@
+Bourne:
+Monument Beach
+Scusset Beach
+
+Sandwich:
+Sandy Neck Beach
+Town Neck Beach
+
+Barnstable:
+
+Craigville Beach
+Sandy Beach
+
+Yarmouth:
+
+Seagull Beach
+West Dennis Beach
+
+Dennis:
+
+Mayflower Beach
+Corporation Beach
+Brewster:
+
+Breakwater Beach
+Crosby Landing Beach
+
+Harwich:
+Bank Street Beach
+Red River Beach
+
+Chatham:
+
+Lighthouse Beach
+Harding's Beach
+Orleans:
+
+Nauset Beach
+Skaket Beach
+Eastham:
+
+Coast Guard Beach
+First Encounter Beach
+Wellfleet:
+
+Cahoon Hollow Beach
+Marconi Beach
+
+Truro:
+Head of the Meadow Beach
+Corn Hill Beach
+
+Provincetown:
+Herring Cove Beach
+Race Point Beach
+
+
+Falmouth:
+Old Silver Beach
+Surf Drive Beach
+
+Mashpee:
+South Cape Beach
+John's Pond Beach
+
+
+Sorting
+--------------------------------
+
+Water Temperature vs. Crowds: You could plot the beaches based on their average water temperature along the x-axis, and the level of crowds or visitors along the y-axis. This would allow you to see which beaches are warmer and less crowded, and vice versa.
+
+Water Clarity vs. Wave Height: You could plot the beaches based on the clarity of the water along the x-axis, and the height of the waves along the y-axis. This would allow you to see which beaches have clearer water with calmer waves, and which ones have murkier water with bigger waves.
+
+Natural Beauty vs. Amenities: You could plot the beaches based on their level of natural beauty or scenic views along the x-axis, and the amenities or facilities available at the beach along the y-axis. This would allow you to see which beaches are more natural and unspoiled, and which ones have more amenities like restrooms, showers, and concessions.
