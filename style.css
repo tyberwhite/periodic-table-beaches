@@ -17,10 +17,17 @@
   --pink: #fdc5f5;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  align-items: center;
+  /* Setting min-height to 100vh may create problems on mobile. Use "min-height: 100%"
+  and set html "height: 100%" */
+  min-height: 100%;
   background-color: #001d29;
   font-family: "DM Sans", sans-serif;
 }
@@ -48,7 +55,6 @@ header h2 {
   align-items: center;
   width: 900px;
   height: 400px;
-  margin: 50px auto 25px;
 }
 
 .row {
@@ -90,10 +96,7 @@ header h2 {
   margin: 0 0 0 -50px;
   border-radius: 6px;
   text-align: center;
-}
-
-.element:hover {
-  z-index: 10;
+  pointer-events: none;
 }
 
 .element:hover:after {
@@ -204,7 +207,7 @@ header h2 {
   justify-content: space-between;
   width: 900px;
   color: #fff;
-  margin: 50px auto 0;
+  margin: 50px auto 40px;
 }
 
 .region {
@@ -256,6 +259,7 @@ header h2 {
 }
 
 .footer {
+  width: 100%;
   margin-top: auto;
   padding: 10px;
   background-color: #002b3d;
